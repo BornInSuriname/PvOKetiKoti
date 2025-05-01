@@ -4,7 +4,6 @@ export default function GridSection() {
     { title: 'Herdenking', description: 'Bekijk aankomende evenementen.', link: '#' },
     { title: 'Educatie', description: 'Lesmateriaal voor bewustwording.', link: '#' },
   ]
-
   return (
     <section className="grid grid-cols-1 md:grid-cols-3 gap-4 p-4">
       {sections.map((section, idx) => (
