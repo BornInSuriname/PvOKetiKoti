@@ -4,20 +4,11 @@
     <meta charset="utf-8">
     <title>PvO Keti Koti CMS</title>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-<<<<<<< HEAD
-    <script>
-      window.CMS_MANUAL_INIT = true;
-    </script>
-=======
->>>>>>> cc6b4693552d03985dd1137473948dfe7913ec38
     <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
-    <script type="module">
-      console.log("🚀 CMS initializing...");
-      import config from './config.yml';
-      window.CMS.init({ config });
-    </script>
   </head>
   <body>
-    <noscript>Je hebt JavaScript nodig om het CMS te gebruiken.</noscript>
+    <script>
+      window.CMS_MANUAL_INIT = false;
+    </script>
   </body>
 </html>
