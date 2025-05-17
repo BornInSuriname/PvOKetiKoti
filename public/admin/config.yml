@@ -6,13 +6,12 @@ media_folder: "public/uploads"
 public_folder: "/uploads"
 
 collections:
-  - name: "pages"
-    label: "Pagina’s"
+  - name: "home"
+    label: "Homepage"
     files:
       - file: "content/home.md"
-        label: "Home"
+        label: "Homepagina"
         name: "home"
         fields:
           - { label: "Titel", name: "title", widget: "string" }
           - { label: "Inhoud", name: "body", widget: "markdown" }
-
