@@ -1,0 +1,15 @@
+---
+import teamleden from '../../content/teamleden.json';
+---
+<Layout>
+  <h1>Bestuur</h1>
+  <ul>
+    {teamleden.map(lid => (
+      <li>
+        <h2>{lid.naam}</h2>
+        <strong>{lid.functie}</strong>
+        <p>{lid.bio}</p>
+      </li>
+    ))}
+  </ul>
+</Layout>
