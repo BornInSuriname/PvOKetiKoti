@@ -1,1 +1,8 @@
-# Netlify configuratie
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[[redirects]]
+  from = "/admin/*"
+  to = "/admin/index.html"
+  status = 200
